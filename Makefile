@@ -1,6 +1,6 @@
 main:
 	gcc fsync.c -o fsync
 install: main
-	mkdir -p /usr/loca/bin
-	cp fsync /usr/loca/bin
+	mkdir -p /usr/local/bin
+	cp fsync /usr/local/bin
 
